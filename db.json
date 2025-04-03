@@ -1,5 +1,5 @@
 {
-  "posts": [
+  "entries": [
     {
             "id": 1,
             "client": "AUD12345",
@@ -29,17 +29,25 @@
             "comment": "Withdraw for some personal work"
         }
   ],
-  "comments": [
+  "clients": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "some comment",
-      "postId": 1
-    }
+            "id": 1,
+            "client_code": "ADG001",
+            "client_name": "Art Diamond Goldsmith Jewellery LLC",
+            "routes": "ADU8007"
+        },
+        {
+            "id": 2,
+            "client_code": "AID001",
+            "client_name": "APM Intl DMCC",
+            "routes": "ADU8012"
+        },
+        {
+            "id": 3,
+            "client_code": "AID002",
+            "client_name": "APM Intl DMCC",
+            "routes": "ADU8012"
+        }
   ],
   "profile": {
     "name": "typicode"
