@@ -1,55 +1,31 @@
 {
-    "entries": [
-        {
-            "id": 1,
-            "client": "AUD12345",
-            "entry_type": "Charges",
-            "amount": 199,
-            "comment": "Swap Charges"
-        },
-        {
-            "id": 2,
-            "client": "AUD12345",
-            "entry_type": "Bank Deposit",
-            "amount": 100000,
-            "comment": "Deposited"
-        },
-        {
-            "id": 3,
-            "client": "XIS2324",
-            "entry_type": "Adjustment posting",
-            "amount": 7800,
-            "comment": "Adjusted"
-        },
-        {
-            "id": 4,
-            "client": "AUD12345",
-            "entry_type": "Withdrawal",
-            "amount": 78899,
-            "comment": "Withdraw for some personal work"
-        }
-    ],
-    "Clients": [
-        {
-            "id": 1,
-            "client_code": "ADG001",
-            "client_name": "Art Diamond Goldsmith Jewellery LLC",
-            "routes": "ADU8007"
-        },
-        {
-            "id": 2,
-            "client_code": "AID001",
-            "client_name": "APM Intl DMCC",
-            "routes": "ADU8012"
-        },
-        {
-            "id": 3,
-            "client_code": "AID002",
-            "client_name": "APM Intl DMCC",
-            "routes": "ADU8012"
-        }
-    ],
-    "profile": {
-        "name": "typicode"
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1"
+    },
+    {
+      "id": 2,
+      "title": "Post 2"
+    },
+    {
+      "id": 3,
+      "title": "Post 3"
     }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
