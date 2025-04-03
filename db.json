@@ -1,16 +1,33 @@
 {
-  "posts": [
+  "entries": [
     {
       "id": 1,
-      "title": "Post 1"
+      "client": "AUD12345"
+      "entry_type":"Charges"
+      "amount":199
+      "comment":""
+      
     },
     {
-      "id": 2,
-      "title": "Post 2"
+     "id": 1,
+      "client": "AUD12345"
+      "entry_type":"Bank Deposit"
+      "amount":100000
+      "comment":"Deposited"
     },
     {
-      "id": 3,
-      "title": "Post 3"
+     "id": 1,
+      "client": "XIS2324"
+      "entry_type":"Adjustment posting"
+      "amount":7800
+      "comment":"Adjusted"
+    },
+    {
+     "id": 1,
+      "client": "AUD12345"
+      "entry_type":"Withdrawal"
+      "amount":78899
+      "comment":"Withdraw for some personal work"
     }
   ],
   "comments": [
